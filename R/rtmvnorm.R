@@ -412,7 +412,7 @@ rtmvnorm.gibbs.Precision <- function(n,
   # Take start value given by user or determine from lower and upper
   if (!is.null(start.value)) {
     if (length(mean) != length(start.value)) stop("mean and start value have non-conforming size")
-	  if (any(start.value<lower || start.value>upper)) stop("start value is not inside support region")
+	  if (any(start.value<lower) || any(start.value>upper)) stop("start value is not inside support region")
 	  x0 <- start.value
   } else {
     # Start value from support region, may be lower or upper bound, if they are finite,
@@ -507,7 +507,7 @@ rtmvnorm.gibbs.Fortran <- function(n,
   # Take start value given by user or determine from lower and upper	
   if (!is.null(start.value)) {
     if (length(mean) != length(start.value)) stop("mean and start value have non-conforming size")
-	if (any(start.value<lower || start.value>upper)) stop("start value is not inside support region") 
+	if (any(start.value<lower) || any(start.value>upper)) stop("start value is not inside support region") 
 	x0 <- start.value 
   } else {
     # Start value from support region, may be lower or upper bound, if they are finite, 
