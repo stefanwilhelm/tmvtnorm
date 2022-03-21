@@ -1,10 +1,10 @@
 Package: tmvtnorm
-Version: 1.4-10
-Date: 2015-08-24
+Version: 1.5
+Date: 2022-03-21
 Title: Truncated Multivariate Normal and Student t Distribution
 Author: Stefan Wilhelm <wilhelm@financial.com> with contributions from Manjunath B G <bgmanjunath@gmail.com>
 Maintainer: Stefan Wilhelm <wilhelm@financial.com>
-Imports: stats
+Imports: stats, methods
 Depends: R (>= 1.9.0), mvtnorm, utils, Matrix, stats4, gmm
 Encoding: latin1
 Suggests: lattice

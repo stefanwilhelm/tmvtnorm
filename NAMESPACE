@@ -1,3 +1,4 @@
+importFrom("methods", "as")
 useDynLib(tmvtnorm)
 import(stats)
 import(utils)
