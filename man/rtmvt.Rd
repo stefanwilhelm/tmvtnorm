@@ -66,7 +66,7 @@ The same warnings for the Gibbs sampler apply as for the method \code{\link{rtmv
 Geweke, John F. (1991) Efficient Simulation from the Multivariate Normal and Student-t Distributions
 	Subject to Linear Constraints.
 \emph{Computer Science and Statistics. Proceedings of the 23rd Symposium on the Interface. Seattle Washington, April 21-24, 1991}, pp. 571--578
-An earlier version of this paper is available at \url{http://www.biz.uiowa.edu/faculty/jgeweke/papers/paper47/paper47.pdf}
+An earlier version of this paper is available at \url{https://www.biz.uiowa.edu/faculty/jgeweke/papers/paper47/paper47.pdf}
 }
 
 \examples{

@@ -12,4 +12,4 @@ Description: Random number generation for the truncated multivariate normal and 
   Computes probabilities, quantiles and densities, 
   including one-dimensional and bivariate marginal densities. Computes first and second moments (i.e. mean and covariance matrix) for the double-truncated multinormal case.
 License: GPL (>= 2)
-URL: http://www.r-project.org
+URL: https://www.r-project.org

@@ -1,4 +1,6 @@
+^[.].*$
+^.*/[.].*$
 linked_list.mod
 ^.*\.Rproj$
 ^\.Rproj\.user$
-users/
+^users/.*
