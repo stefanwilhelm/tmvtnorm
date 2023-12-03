@@ -1,6 +1,6 @@
 Package: tmvtnorm
 Version: 1.6
-Date: 2023-12-03
+Date: 2023-12-05
 Title: Truncated Multivariate Normal and Student t Distribution
 Authors@R: c(
   person("Stefan", "Wilhelm", email = "wilhelm@financial.com", role = c("aut", "cre")),
